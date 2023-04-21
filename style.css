@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+	--primary-color: #14b8a6;
+	--light-color: white;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -7,14 +12,27 @@ body {
 /** container **/
 
 .container {
-	padding-left: 1rem;
-	padding-right: 1rem;
-}
-
-.conatiner__fluid {
+	padding: 0rem 1rem;
 }
 
 .container__center {
 	max-width: 700px;
 	margin: auto;
+}
+
+/** links **/
+.link {
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.link__primary {
+	background-color: var(--primary-color);
+	color: var(--light-color);
+}
+
+.link__secondary {
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
 }
