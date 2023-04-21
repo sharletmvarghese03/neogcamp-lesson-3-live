@@ -50,3 +50,29 @@ hr {
 	display: inline;
 	padding: 0 0.5rem;
 }
+
+/** nav **/
+
+.navigation {
+	background-color: var(--primary-color);
+	color: var(--light-color);
+	padding: 1rem;
+	border-bottom-left-radius: 1rem;
+}
+
+.nav-brand {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.navigation .link {
+	color: inherit;
+}
+
+.navigation .nav-pills {
+	text-align: right;
+}
+
+.navigation .link-active {
+	font-weight: bold;
+}
