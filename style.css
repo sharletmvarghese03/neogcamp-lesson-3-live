@@ -3,7 +3,7 @@
 :root {
 	--primary-color: #14b8a6;
 	--light-color: white;
-	--dark-gray: #6b7280;
+	--dark-gray: #64748b;
 }
 
 body {
@@ -93,4 +93,8 @@ hr {
 .hero .hero-heading {
 	padding-top: 1rem;
 	color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+	color: var(--primary-color);
 }
