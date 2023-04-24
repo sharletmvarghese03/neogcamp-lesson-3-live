@@ -16,6 +16,12 @@ hr {
 	margin: 2rem 0;
 }
 
+/** spaces **/
+
+.margin-md {
+	margin: 2rem;
+}
+
 /** container **/
 
 .container {
@@ -83,6 +89,7 @@ hr {
 /** header **/
 .hero {
 	padding: 2rem;
+	padding-top: 5rem;
 }
 
 .hero .hero-img {
